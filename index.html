@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperaturas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="http://fonts.cdnfonts.com/css/cooper-std" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="nav_header">
+            <div class="logo_header">
+                <i class="fa-solid fa-square-h"></i>
+                <br> Temperatures
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <h1 class="tittle_main-content">
+            Convertidor de temperaturas
+        </h1>
+            
+        <div class="nav-maincontent">
+            <div class="btns-nav">
+                <div class="btn" id="btnKc">°K a °C</div>
+                <div class="btn" id="btnCf">°C a °F</div>
+                <div class="btn" id="btnFc">°F a °C</div>
+                <div class="btn" id="btnCk">°C a °K</div>
+                <div class="btn" id="btnKf">°K a °F</div>
+                <div class="btn" id="btnFk">°F a °K</div>
+            </div>
+        </div>
+    </section>
+    <div class="cc">
+        <div class="container_forms">
+            <div class="forms" id="forms">
+                <div class="form_section">
+                    <h3 class="form_tittle">
+                        Convertir Kelvin a Celsius
+                    </h3>
+                    <div class="container-dato">
+                        <div class="dato">
+                            <input type="number" id="txt-Kc" placeholder="Coloca los °K ">
+                        </div>
+                        <div class="btns-dato" id="btnResultKc">
+                            <div class="item">
+                                <i class="fa-brands fa-medium"></i> Convertir
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <i class="icon fa-solid fa-circle-info"></i>
+                    <div class="alert alert-danger" role="alert" id="respuesta1txt" >
+                        A simple danger alert—check it out!
+                    </div>
+                    
+                </div>
+                <div class="form_section">
+                    <h3 class="form_tittle">
+                        Convertir Celsius a Farenheit
+                    </h3>
+                    <div class="container-dato">
+                        <div class="dato">
+                            <input type="number"  id="txt-Cf" placeholder="Coloca los °C ">
+                        </div>
+                        <div class="btns-dato" id="btnResultCf">
+                            <div class="item">
+                                <i class="fa-brands fa-medium"></i> Convertir
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <i class="icon fa-solid fa-circle-info"></i>
+                    <div class="alert alert-danger" role="alert" id="respuesta2txt" >
+                        A simple danger alert—check it out!
+                    </div>
+                </div>
+                <div class="form_section">
+                    <h3 class="form_tittle">
+                        Convertir Farenheit a Celsius
+                    </h3>
+                    <div class="container-dato">
+                        <div class="dato">
+                            <input type="number" name="Fc" id="txt-Fc" placeholder="Coloca los °F ">
+                        </div>
+                        <div class="btns-dato" id="btnResultFc">
+                            <div class="item">
+                                <i class="fa-brands fa-medium"></i> Convertir
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <i class="icon fa-solid fa-circle-info"></i>
+                    <div class="alert alert-danger" role="alert" id="respuesta3txt" >
+                        A simple danger alert—check it out!
+                    </div>
+                </div>
+                <div class="form_section">
+                    <h3 class="form_tittle">
+                        Convertir Celsius a Kelvin
+                    </h3>
+                    <div class="container-dato">
+                        <div class="dato">
+                            <input type="number" name="Ck" id="txt-Ck" placeholder="Coloca los °C ">
+                        </div>
+                        <div class="btns-dato" id="btnResultCk">
+                            <div class="item">
+                                <i class="fa-brands fa-medium"></i> Convertir
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <i class="icon fa-solid fa-circle-info"></i>
+                    <div class="alert alert-danger" role="alert" id="respuesta4txt" >
+                        A simple danger alert—check it out!
+                    </div>
+                </div>
+                <div class="form_section">
+                    <h3 class="form_tittle">
+                        Convertir Kelvin a Farenheit
+                    </h3>
+                    <div class="container-dato">
+                        <div class="dato">
+                            <input type="number" name="Kf" id="txt-Kf" placeholder="Coloca los °K ">
+                        </div>
+                        <div class="btns-dato" id="btnResulKf">
+                            <div class="item">
+                                <i class="fa-brands fa-medium"></i> Convertir
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <i class="icon fa-solid fa-circle-info"></i>
+                    <div class="alert alert-danger" role="alert" id="respuesta5txt" >
+                        A simple danger alert—check it out!
+                    </div>
+                </div>
+                <div class="form_section">
+                    <h3 class="form_tittle">
+                        Convertir Farenheit a Kelvin
+                    </h3>
+                    <div class="container-dato">
+                        <div class="dato">
+                            <input type="number" name="Fk" id="txt-Fk" placeholder="Coloca los °F">
+                        </div>
+                        <div class="btns-dato" id="btnResulFk">
+                            <div class="item">
+                                <i class="fa-brands fa-medium"></i> Convertir
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <i class="icon fa-solid fa-circle-info"></i>
+                    <div class="alert alert-danger" role="alert" id="respuesta6txt" >
+                        A simple danger alert—check it out!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/nav.js"></script>
+    <script src="js/convertions.js"></script>
+</body>
+</html>
